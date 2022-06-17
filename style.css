@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Passion+One&family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Passion+One&family=Shadows+Into+Light&display=swap');
+
+:root {
+    --cor0: #6F9420;
+    --cor1: #242E23;
+    --cor2: #B7D8F3;
+    --cor3: #2E4903;
+    --cor4: #B0D6F4;
+    --cor5: #EABC6F;
+    --cor6: #DDBB59;
+}
+* {
+    padding: 0%;
+    margin: 0%;
+}
+body.imagem {
+    background-image: url(fundo/bola2.png);
+    background-color: #6F9420;
+    background-repeat: repeat;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 8px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main > p {
+    padding: 8px;
+    font-size: 20px;
+}
+main > h1 {
+    text-align: center;
+}
+header{
+    background-color: #DDBB59;
+    padding: 8px;
+    min-width: 150px;
+}
+header > h1 {
+    font-size: 2.5em;
+    font-family: 'Abril Fatface', Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 0px black;
+}
+nav {
+    background-color: var(--cor6);
+    padding: 8px;
+    box-shadow: 0px 5px 7px black;
+    color: black;
+    text-align: center;
+}
+nav > a {
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: 10px;
+    font-weight: bold;
+    transition-duration: 0.15s;
+    color: black;
+}
+nav > a:hover {
+    background-color: var(--cor0);
+    color: white;
+}
+
+table {
+    font-family: 'Styles', Arial, Helvetica, sans-serif;
+    border: 0.2em solid black;
+    border-collapse: collapse;
+    width: 750px;
+    margin: 20px auto 40px auto;
+}
+caption {
+    border: 2px solid black;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: var(--cor5);
+}
+th, td {
+    font-family: 'Styles', Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    border: 0.1em solid black;
+    padding: 0.8em;
+    text-align: center;
+}
+tr.tabela {
+    background-color: var(--cor1);
+    color: white;
+}
+header > h1 {
+    font-family: Styles, Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 12px;
+    text-transform: uppercase;
+}
+main > h1 {
+    text-align: center;
+}
+aside, p {
+    padding: 8px;
+    font-variant: small-caps;
+    font-size: 20px;
+    padding: 8px;
+}
+aside > h1 { 
+    text-align: center;
+}
+div.video {
+    background-color: var(--cor5);
+    margin-bottom: 30px;
+    margin: 0px -20px 0px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+    div#container {
+        overflow-x: auto;
+    }
+footer {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    text-align: center;
+}
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
